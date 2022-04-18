@@ -5,12 +5,14 @@
 - `npm run start-dev` to get `access token` for dev enviroment
 
 ## How to use
-1. After run `npm run start-play`, copy the `accessToken.jwtToken`
+1. After run `npm run start-play`, copy the `accessToken.jwtToken`. **On play environment, this script may fail for the first 1-2 times, just try again until it work**
    
     ![](img/1.png)
 
 2. Open **Postman**, and add the token to the **Authorization** header
-![](img/2.png)
+   
+    ![](img/2.png)
 
 3. Body use **GraphQL**, if postman can fetch the schema then auth work
-![](img/3.png)
+
+    ![](img/3.png)
