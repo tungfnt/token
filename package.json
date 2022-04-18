@@ -1,0 +1,18 @@
+{
+  "name": "amplify-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-play": "NODE_ENV=play node index.js",
+    "start-dev": "NODE_ENV=dev node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^4.3.16",
+    "dotenv": "^16.0.0"
+  }
+}
