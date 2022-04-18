@@ -1,3 +1,5 @@
 ## Amplify Login With Cognito
-- Setup: `cp .env.example .env && npm i` 
-- Run: `npm start`
+- Create `.env.play` and `.env.dev`
+- `npm install`
+- `npm run start-play` to get `access token` for play enviroment
+- `npm run start-dev` to get `access token` for dev enviroment
